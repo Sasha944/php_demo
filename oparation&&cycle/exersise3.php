@@ -13,14 +13,18 @@
     <div class="buttonnInput"><input type="submit" value="Відправити" class="btn btn-primary"></div>
 </form>
 	<?php 	
-     $number =  $_POST["number"];
+    if(!empty($_POST["number"])){
+        $number =  $_POST["number"];
      $numm = (int) $number;
      $result = 0;
      for($i=0;$i<$numm;$i++){
-     	$result = $result + $i;
+        $result = $result + $i;
      
      }
        echo $result;
-	 ?>
+   }
+     ?>
+    
+     
 </body>
 </html>

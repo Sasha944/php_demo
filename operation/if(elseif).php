@@ -13,7 +13,7 @@
      if(($minute >= 0)&&($minute < 16)){
           echo "<p>Це число входить в першу четверть</p>";
      }
-      else if (($minute >= 15)&&($minute < 31)) {
+      else if (($minute >= 16)&&($minute < 31)) {
           echo "<p>Це число входить в другу четверть</p>";
      }
       else if(($minute >= 31)&&($minute < 46)){

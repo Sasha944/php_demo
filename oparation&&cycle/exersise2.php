@@ -27,12 +27,11 @@
 	<?php 
       $a = $_POST["a"];
       $b = $_POST["b"];
-      $i = $a;
-      for ($i;$i+$b<74;$i++){
-      	$summ = $i + $b;
-      	$sub = $i - $b;
-      	$multi = $i * $b;
-      	$division = $i / $b;
+      for ($a;$a+$b<74;$a++){
+      	$summ = $a + $b;
+      	$sub = $a - $b;
+      	$multi = $a * $b;
+      	$division = $a / $b;
 
        echo "<div><p> Сумма чисел:".$summ."</p>";
        echo "<p> Різниця чисел: ".$sub."</p>";
